@@ -1,0 +1,36 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 99%;
+    height: 95vh;
+    overflow: hidden;
+}
+
+.swiper{
+    overflow: hidden;
+    width: 600px;
+    height: 300px;
+}
+
+
+.swiper-slide img{
+    width: 101%;
+}
+
+@media (max-width: 650px) {
+    .swiper{
+        width: 400px;
+        height: 200px;
+    }
+
+}
+
+@media (max-width: 400px) {
+    .swiper{
+        width: 200px;
+        height: 100px;
+    }
+
+}
+
